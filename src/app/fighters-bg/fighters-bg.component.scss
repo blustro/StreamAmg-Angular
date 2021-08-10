@@ -1,0 +1,66 @@
+.fighter-bg1 {
+  left: 0;
+}
+
+.fighter-bg2 {
+  right: 0;
+}
+
+.fighter-bg1,
+.fighter-bg2 {
+  bottom: 0;
+  position: absolute;
+}
+
+@media only screen and (min-width: 568px) {
+  .fighter-bg1,
+  .fighter-bg2 {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .fighter-bg1,
+  .fighter-bg2 {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .fighter-bg1 {
+    animation: leftFighterBg 0.3s linear 2s;
+    transform: translateX(-75px);
+    animation-fill-mode: forwards;
+  }
+  .fighter-bg2 {
+    animation: rightFighterBg 0.3s linear 2s;
+    transform: translateX(75px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 992px) and (orientation: landscape) {
+  .fighter-bg1,
+  .fighter-bg2 {
+    width: 40%;
+  }
+}
+
+@keyframes leftFighterBg {
+  0% {
+    transform: translateX(-75px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes rightFighterBg {
+  0% {
+    transform: translateX(75px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

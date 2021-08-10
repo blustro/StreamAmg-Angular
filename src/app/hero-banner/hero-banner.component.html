@@ -1,0 +1,29 @@
+<div class="hero-banner d-flex align-items-center justify-content-center">
+  <ng-template ngFor let-smoke [ngForOf]="smokeImages">
+    <img [src]="smoke.imgSrc" class="img-fluid smoke" [alt]="smoke.alt" />
+  </ng-template>
+
+  <app-text-content
+    class="text-content animate__animated animate__fadeIn animate__delay-2s"
+  ></app-text-content>
+
+  <app-buy-button></app-buy-button>
+
+  <app-fighters-bg
+    class="animate__animated animate__fadeIn animate__delay-1s"
+  ></app-fighters-bg>
+
+  <app-fighters-img
+    class="
+      d-none d-lg-flex
+      fighters-img
+      animate__animated animate__fadeIn animate__delay-1s
+    "
+  ></app-fighters-img>
+
+  <img
+    src="../../assets/hero/shadow-bottom.png"
+    alt=""
+    class="bg-shadow animate__animated animate__fadeIn animate__delay-1s"
+  />
+</div>

@@ -1,0 +1,61 @@
+{
+  "headerImage": {
+    "imgSrc": "assets/logo.svg",
+    "alt": "StreamAMG"
+  },
+  "menuItems": [
+    { "name": "HOME" },
+    { "name": "BUY PASS" },
+    { "name": "FAQs" },
+    { "name": "LOGIN" },
+    { "name": "REGISTER" }
+  ],
+  "smokeImages": [
+    { "imgSrc": "assets/hero/smoke1.png", "alt": "smoke1" },
+    { "imgSrc": "assets/hero/smoke2.png", "alt": "smoke2" }
+  ],
+  "fightersName": {
+    "fighter1": "Ortiz",
+    "fighter2": "Joshua"
+  },
+  "locationSlogan": {
+    "title1": "Clash",
+    "small1": "On",
+    "small2": "the",
+    "title2": "Dunnes"
+  },
+  "category": {
+    "title": "Heavyweight championship of the world"
+  },
+  "locationDetails": {
+    "date": "SATURDAY, DECEMBER 07 2019 - 10PM",
+    "eventLocation": "DIRIYAH, SAUDI ARABIA"
+  },
+  "button": {
+    "title": "Buy Pass"
+  },
+  "fightersBg": [
+    {
+      "image": "assets/hero/fighter-bg1.png",
+      "alt": "Ortiz Background",
+      "class": "fighter-bg1"
+    },
+    {
+      "image": "assets/hero/fighter-bg2.png",
+      "alt": "Joshua Background",
+      "class": "fighter-bg2"
+    }
+  ],
+  "fightersImages": [
+    {
+      "image": "assets/hero/fighter1.png",
+      "alt": "Ortiz Image",
+      "class": "fighter1"
+    },
+    {
+      "image": "assets/hero/fighter2.png",
+      "alt": "Joshua Image",
+      "class": "fighter2"
+    }
+  ]
+}

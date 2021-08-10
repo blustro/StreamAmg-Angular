@@ -1,0 +1,45 @@
+.red {
+  background-color: #cf3331;
+}
+
+.btn {
+  position: absolute;
+  border-radius: inherit;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1.05rem;
+  color: #fff;
+  text-transform: uppercase;
+  bottom: 10.5rem;
+  z-index: 1;
+  left: 41%;
+}
+
+@media only screen and (max-width: 400px) {
+  .btn {
+    font-size: 0.8rem;
+    bottom: 8rem;
+    z-index: 1;
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .btn {
+    left: 46%;
+    bottom: 9rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .btn {
+    bottom: 18rem;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 992px) and (orientation: landscape) {
+  .hero-banner .btn {
+    bottom: 4rem;
+  }
+}

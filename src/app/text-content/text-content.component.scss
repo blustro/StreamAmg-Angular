@@ -1,0 +1,21 @@
+.light-brown {
+  color: #cba57d;
+}
+
+.text-content {
+  top: 0;
+  margin-top: 7rem;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 400px) {
+  .fighters-headline h1 {
+    font-size: 330%;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .date-location-details h3 {
+    font-size: 0.8rem;
+  }
+}

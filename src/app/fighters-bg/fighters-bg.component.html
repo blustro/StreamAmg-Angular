@@ -1,0 +1,8 @@
+<ng-template ngFor let-fighterBg [ngForOf]="fightersBg">
+  <img
+    [src]="fighterBg.image"
+    class="img-fluid"
+    [class]="fighterBg.class"
+    [alt]="fighterBg.alt"
+  />
+</ng-template>

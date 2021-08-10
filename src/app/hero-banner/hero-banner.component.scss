@@ -1,0 +1,88 @@
+.hero-banner img,
+.text-content,
+.shadow-bottom {
+  position: absolute;
+}
+
+.hero-banner {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hero-banner {
+  background: #000 url("../../assets/hero/hero-bg.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+img.smoke {
+  max-width: 300%;
+  opacity: 0;
+  animation: 50s linear 1.5s infinite running smoke;
+}
+
+.text-content {
+  top: 0;
+  margin-top: 7rem;
+  z-index: 1;
+}
+
+.bg-shadow {
+  bottom: 0;
+}
+
+.bg-shadow {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 400px) {
+  .text-content {
+    margin-top: 7rem;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .text-content {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .text-content {
+    top: 35%;
+    transform: translateY(-50%);
+    margin-top: 0;
+  }
+
+  img.smoke {
+    max-width: 100%;
+    left: 0;
+    top: auto;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fighters-img {
+    visibility: hidden;
+  }
+  .fighters-img.animate__animated {
+    visibility: visible;
+  }
+}
+
+@keyframes smoke {
+  0%,
+  100% {
+    transform: translateX(25%);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+}

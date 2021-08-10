@@ -1,0 +1,47 @@
+img {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  img {
+    width: 43%;
+  }
+  .fighter1 {
+    left: 13%;
+    animation: leftFighter 0.8s linear 2s;
+    transform: translateX(-150px);
+    animation-fill-mode: forwards;
+  }
+  .fighter2 {
+    right: 13%;
+    animation: rightFighter 0.8s linear 2s;
+    transform: translateX(150px);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes leftFighter {
+    0% {
+      transform: translateX(-150px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes rightFighter {
+    0% {
+      transform: translateX(150px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    width: 40%;
+  }
+}

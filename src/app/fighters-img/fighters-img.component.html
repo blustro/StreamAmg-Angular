@@ -1,0 +1,11 @@
+<!-- <img src="../../assets/hero/fighter1.png" class="img-fluid fighter1" alt="" />
+<img src="../../assets/hero/fighter2.png" class="img-fluid fighter2" alt="" /> -->
+
+<ng-template ngFor let-fighterImage [ngForOf]="fightersImages">
+  <img
+    [src]="fighterImage.image"
+    class="img-fluid"
+    [class]="fighterImage.class"
+    [alt]="fighterImage.alt"
+  />
+</ng-template>

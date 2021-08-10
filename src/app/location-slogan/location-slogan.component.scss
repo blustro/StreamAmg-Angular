@@ -1,0 +1,40 @@
+h2,
+div {
+  font-size: 2rem;
+  background: rgb(201, 165, 129);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 165, 129, 1) 0%,
+    rgba(243, 222, 192, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  font-size: 10px;
+  text-align: center;
+  line-height: 1;
+  // height: 30px;
+  letter-spacing: 3px;
+  color: #9c8d70;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 568px) {
+  h2 {
+    font-size: 1.35rem;
+  }
+  span {
+    height: auto;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 3.5rem;
+    line-height: 0.8;
+  }
+}

@@ -1,0 +1,36 @@
+h1 {
+  font-size: 400%;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.vs {
+  transform: rotate(270deg);
+  font-size: 1.5rem;
+  background: rgb(201, 165, 129);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 165, 129, 1) 0%,
+    rgba(243, 222, 192, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 330%;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
