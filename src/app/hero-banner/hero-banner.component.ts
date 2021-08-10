@@ -57,7 +57,7 @@ export class HeroBannerComponent implements OnInit {
 
     window.addEventListener("resize", () => {
       onScroll("fighter1");
-      onScroll("fighter2");
+      onScroll("fighter2"); 
 
       if (smallScreen.matches) {
         onScroll("fighter-bg1");
